@@ -1,0 +1,169 @@
+
+#header{
+    padding: 38px;
+}
+
+.navbar{
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.navbar-list{
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.navbar-item{
+     padding-left: 30px;
+     padding-right: 30px;
+}
+
+.ti-html5{
+    font-size: 34px;
+    padding-left: 40px;
+}
+
+.navbar-sign-in{
+    color: white;
+    background-color: blue;
+    border-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 16px;
+}
+
+.title-content{
+    font-size: 43px;
+}
+
+#content{
+    padding: 38px;
+    margin-left: 65px;
+    margin-right: 65px
+}
+
+
+
+#content .picture-content{
+    float: right;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title-content{
+    padding: 12px;
+}
+
+.detail-content{
+    padding: 12px;
+    font-size: 16px;
+}
+
+
+
+.lable-input{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 10px;
+
+}
+
+#email-address{
+
+    margin-top: 16px;
+    width: 350px;
+    height: 45px;
+}
+
+.btn-sub{
+    color: white;
+    font-size: 24px;
+    background-color: blue;
+    border-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 110px;
+    height: 39px;
+    margin-left: 16px;
+    justify-items: center;
+    cursor: pointer;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.title-footer{
+    font-size: 24px;
+    font-style: unset;
+    /* padding: 38px; */
+    padding-left: 38px;
+    padding-right: 38px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.list-footer{
+    padding: 38px;
+
+}
+
+.cricle{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    background-color: #7dccda;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+
+}
+
+.list-detail{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #9A9A9A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-footer{
+    font-style: unset;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+.small-text{
+    font-size: 16px;
+    padding-top: 10px;
+}
+.ti-mobile, .ti-magnet, .ti-clipboard{
+    font-size: 54px;
+}
+
+.small-cricle{
+    display: flex;
+    height: 24px;
+    width: 24px;
+    background-color: #7dccda;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+
+}
