@@ -4,13 +4,16 @@
     margin: 0;
     padding: 0;
 }
-
+.clear{
+    clear: both;
+}
 #header{
-    /* width: 100%; */
+    width: 100%;
     position: relative;
     max-height: auto;
     max-width: auto;
     padding:  24px 38px;
+    
 }
 
 
@@ -24,8 +27,9 @@
 }
 
 .navbar-menu{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
+    /* z-index: 1; */
 }
 
 button{
@@ -38,12 +42,14 @@ button{
     padding: 10px;
 }
 
+
+
 .main-title{
     position: absolute;
-    top: 219px;
+    top: 190px;
     left: 360px;
     width: 800px;
-    height: 120px;
+    height: 100%;
     text-align: center;
     font-size: 42px;
     font-style: normal;
@@ -56,7 +62,7 @@ button{
     /* padding-top: 375px; */
     top: 375px;
     width: 560px;
-    height: 44px;
+    height: 100%;
     color: rgba(91, 94, 109, 1);
     text-align: center;
     font-size: 16px;
@@ -73,22 +79,111 @@ button{
     flex-shrink: 0;
     width: 42px;
     height: 42px;
+    margin-top: 20px;
 }
 
 
-.location-first-btn{
-    position: absolute;
+
+
+.location-multi-btn{
+    position: fixed;
+    display: flex;
+    height: 270px;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+    background: white;
+    margin-top: 300px;
+}
+
+.location-multi-btn>ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.location-multi-btn>ul>li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    height: 42px;
     width: 42px;
-    max-height: auto;
-    top: 530px;
-    left: 32px;
+    background: red;
+    line-height: 42px;
+    border-radius: 50%;
+    margin: 12px 0px;
+    cursor: pointer;
+    transition: .5s;
 }
 
+.title-custom{
+    position: absolute;
+    top: 460px;
+    left: 630px;
+    text-align: center;
+    padding: 10px 20px 10px;
 
-.location-first-btn>ul>li{
+
+    border: 0.7px solid rgba(119, 107, 107, 0.5);
+    /* text-decoration-style: solid;
+    text-decoration-color: red; */
+}
+
+.border-logo-custom{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 550px;
+}
+
+.first-line-custom{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+/* .first-line-custom>ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     list-style: none;
+    padding-left: 38px;
+    padding-right: 38px;
 }
 
-.location-first-btn>ul>li>a{
-    margin-top: 30px;
+.first-line-custom>ul>li{
+    width: 237px;
+    height: 148px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 10px;  
+    padding: auto;
+} */
+
+.style-border-logo{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    height: 148px;
+}
+
+.border-logo-custom-sec{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
 }
