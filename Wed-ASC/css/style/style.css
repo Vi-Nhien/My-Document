@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    /* width: 100%; */
+    position: relative;
+    max-height: auto;
+    max-width: auto;
+    padding:  24px 38px;
+}
+
+
+
+.logo-header{
+    width: 90px;
+    max-height: auto;
+
+    top: 12px;
+    left: 59px;
+}
+
+.navbar-menu{
+    position: fixed;
+    top: 0;
+}
+
+button{
+    background-color: red;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    min-height: auto;
+    min-width: auto;
+    padding: 10px;
+}
+
+.main-title{
+    position: absolute;
+    top: 219px;
+    left: 360px;
+    width: 800px;
+    height: 120px;
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.title-detail{
+    position: absolute;
+    left: 480px;
+    /* padding-top: 375px; */
+    top: 375px;
+    width: 560px;
+    height: 44px;
+    color: rgba(91, 94, 109, 1);
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.btn-red{
+    position: fixed;
+    background-color: red;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+}
+
+
+.location-first-btn{
+    position: absolute;
+    width: 42px;
+    max-height: auto;
+    top: 530px;
+    left: 32px;
+}
+
+
+.location-first-btn>ul>li{
+    list-style: none;
+}
+
+.location-first-btn>ul>li>a{
+    margin-top: 30px;
+}
