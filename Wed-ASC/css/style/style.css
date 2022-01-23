@@ -451,12 +451,18 @@
 
 
 
-
-#media-asc{
-    /* text-align: center; */
+#main-media-asc{
+    float: left;
+    padding: 60px 100px;
     width: auto;
+    color: white;
+}
 
 
+
+#main-media-asc #media-asc{
+    width: auto;
+    color: black;
 }
 
 #media-asc #title-m-asc .main-title-m{
@@ -481,21 +487,26 @@
     
 }
 
-#main-media-asc{
-    float: left;
-    padding: 60px 100px;
-    width: auto;
-}
 
 #main-media-asc .row-media{
     padding: 0 10px;
     margin: 0 20px;
 }
 
+#main-media-asc .row-media h3{
+    color: black;
+}
+
+
+
+#main-media-asc .row-media p{
+    color: black;
+}
+
 #main-media-asc .row-media img{
     width: 400px;
-
-    object-fit: cover;
+    background-size: auto;
+    /* object-fit: cover; */
 }
 #main-media-asc .list-s-more{
     float: right;
@@ -520,23 +531,32 @@
     margin-top: 20px;
 }
 
+
+
+
 #footer{
     /* position: relative; */
+    /* padding-top: 40px; */
+    /* background: rgba(0, 90, 169, 1); */
+    /* width: auto; */
+    /* object-fit: cover; */
+    margin-top: 900px;
     background: rgba(0, 90, 169, 1);
     width: auto;
-    object-fit: cover;
 }
 
-#footer .title-footer{
+#footer .main-title-footer{
     color: white;
     margin:0 200px;
+   
 }
 
 #footer .title-footer p{
     font-style: 20px;
+    padding-top: 50px;
 }
 #footer .title-footer p img{
-    width: 120px;
+    width: 100px;
     float: left;
     margin-right: 80px;
 }
@@ -554,18 +574,49 @@
 #footer .infor .about-us,
 #footer .infor .branch,
 #footer .infor .product{
-    /* margin: 10px; */
-    padding: 48px;
+    margin: 10px;
+}
+
+#footer .infor .advisory{
+    /* flex-grow: 4; */
+}
+
+#footer .infor .hotline-number{
+    /* flex-grow: 4; */
+}
+
+
+#footer .infor .about-us{
+    /* flex-grow: 1; */
 }
 
 #footer .infor .branch{
-    width: 400px;
+    /* flex-grow: 3; */
+    padding: 0 10px;
+}
+
+#footer .infor .product{
+    /* flex-grow: 1; */
+}
+
+
+
+#footer .infor .advisory p,
+#footer .infor .hotline-number p,
+#footer .infor .about-us p,
+#footer .infor .product p, 
+#footer .infor .branch .branch-hcm p,
+#footer .infor .branch .branch-hn p{
+    font-weight: 700;
+}
+
+#footer .infor .branch{
+    width: auto;
 }
 
 
 #footer .infor .about-us .ul-about-us{
     list-style: none;
-    /* margin: 10px; */
 
 }
 
@@ -573,12 +624,22 @@
     padding: 2px 0px;
 }
 
+
+#footer .infor .product .ul-product li{
+    padding: 2px 0px;
+}
+
 #footer .infor .branch .ul-branch-hcm{
     list-style: none;
     /* margin: 10px; */
+    margin: 10px 0;
 
 }
 
+#footer .infor .branch .ul-branch-hcm li{
+    padding: 5px 0;
+
+}
 
 #footer .infor .branch .ul-branch-hn{
     list-style: none;
@@ -586,8 +647,49 @@
 
 }
 
+#footer .infor .branch .ul-branch-hn li{
+    padding: 5px 0;
+
+}
+
 #footer .infor .product .ul-product{
     list-style: none;
     /* margin: 10px; */
+
+}
+
+
+
+
+
+
+
+
+#social-media{
+    position: fixed;
+    top: 200px;
+    left: 34px;
+}
+
+#social-media .social-media-logo {
+    list-style: none;
+}
+
+#social-media .social-media-logo li{
+    margin: 40px 0px;
+}
+
+#social-media .social-media-logo i{
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+
+#copy-right{
+    background: rgba(0, 61, 114, 1);
+    color: white;
+    padding: 10px 50px;
 
 }
