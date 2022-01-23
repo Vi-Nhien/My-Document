@@ -71,12 +71,7 @@
    display: none; 
 }
 
-/* #menu #main-nav #menu-item .item-sp .label{
-    display: inline-block;
-    vertical-align: top;
-    zoom: 1;
 
-} */
 
 .edit-lag{
     border-radius: 50%;
@@ -153,9 +148,7 @@
     width: auto;
     text-align: center;
     padding: 0 140px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;  */
+
 }
 
 #f-row .border-out-side{
@@ -163,9 +156,6 @@
     border-radius: 12px;
     width: 160px;
     height: 100px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     margin: 0 5px;
 }
 
@@ -175,8 +165,7 @@
 }
 
 #f-row .edit-img{
-    /* border: 2px solid #5B5E6D; */
-    /* border-radius: 12px; */
+    
     
 }
 #f-row .edit-img>img{
@@ -184,32 +173,7 @@
     padding: 10px;
 }
 
-/* #s-row{
-    margin-top: 50px;
-    width: auto;
-    text-align: center;
-    padding: 0 200px;
 
-}
-
-#s-row .border-out-side{
-    border: 2px solid #5B5E6D;
-    border-radius: 12px;
-    width: 160px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#s-row .edit-img{
-
-    
-}
-#s-row .edit-img>img{
-    width: 90px;
-    padding: 10px;
-} */
 
 #header-section .see-more {
     display: flex;
@@ -489,7 +453,7 @@
 
 
 #media-asc{
-    text-align: center;
+    /* text-align: center; */
     width: auto;
 
 
@@ -497,7 +461,7 @@
 
 #media-asc #title-m-asc .main-title-m{
     
-
+    text-align: center;
 }
 
 #media-asc #title-m-asc .main-title-m h1{
@@ -512,9 +476,56 @@
 
 #media-asc #title-m-asc .sub-title-m .list-m{
     float: left;
-    margin-top: 60px;
+    margin-top: 40px;
     padding: 20px 20px 0px 20px;
     
 }
 
+#main-media-asc{
+    float: left;
+    padding: 60px 100px;
+    width: auto;
+}
 
+#main-media-asc .row-media{
+    padding: 0 10px;
+    margin: 0 20px;
+}
+
+#main-media-asc .row-media img{
+    width: 400px;
+
+    object-fit: cover;
+}
+#main-media-asc .list-s-more{
+    float: right;
+    padding:0 50px;
+}
+#main-media-asc .list-s-more .s-m{
+    
+}
+
+#main-media-asc .list-s-more .list-btn{
+    width: 20px;
+    background-color: red;
+    /* background: rgba(230, 239, 247, 1); */
+    border-radius: 50px;
+}
+
+#main-media-asc .list-s-more .s-m .see-all{
+    border: 1px solid rgba(227, 227, 227, 1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+#footer{
+    background: rgba(0, 90, 169, 1);
+
+}
+
+#footer .title-footer{
+    color: white;
+    
+}
