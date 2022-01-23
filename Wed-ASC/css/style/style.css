@@ -521,11 +521,73 @@
 }
 
 #footer{
+    /* position: relative; */
     background: rgba(0, 90, 169, 1);
-
+    width: auto;
+    object-fit: cover;
 }
 
 #footer .title-footer{
     color: white;
-    
+    margin:0 200px;
+}
+
+#footer .title-footer p{
+    font-style: 20px;
+}
+#footer .title-footer p img{
+    width: 120px;
+    float: left;
+    margin-right: 80px;
+}
+
+#footer .infor{
+    margin: 150px 200px 0 200px;
+    list-style: none;
+    color: white;
+    /* width: 100%; */
+    font-size: 12px;
+}
+
+#footer .infor .advisory,
+#footer .infor .hotline-number,
+#footer .infor .about-us,
+#footer .infor .branch,
+#footer .infor .product{
+    /* margin: 10px; */
+    padding: 48px;
+}
+
+#footer .infor .branch{
+    width: 400px;
+}
+
+
+#footer .infor .about-us .ul-about-us{
+    list-style: none;
+    /* margin: 10px; */
+
+}
+
+#footer .infor .about-us .ul-about-us li{
+    padding: 2px 0px;
+}
+
+#footer .infor .branch .ul-branch-hcm{
+    list-style: none;
+    /* margin: 10px; */
+
+}
+
+
+#footer .infor .branch .ul-branch-hn{
+    list-style: none;
+    /* margin: 10px; */
+
+}
+
+#footer .infor .product .ul-product{
+    list-style: none;
+    /* margin: 10px; */
+
 }
