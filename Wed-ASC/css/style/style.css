@@ -83,8 +83,19 @@ html{
 
 
 #menu #main-nav .main-menu .item-sp{
-
+    letter-spacing: 0;
 }
+
+#menu #main-nav .main-menu .item-sp:hover,
+#menu #main-nav .main-menu .item-sp:active{
+    letter-spacing: 1px;
+    display: block;
+    border-bottom: 5px solid rgba(236, 28, 36, 1);
+    
+    font-weight: bold;
+}
+
+
 
 
 .border-sp{
@@ -102,6 +113,7 @@ html{
 .border-sp:hover{
     color: rgba(236, 28, 36, 1);
     background-color: white;
+    text-decoration: none;
 }
 
 #menu-icon-close{
@@ -133,6 +145,7 @@ html{
 .edit-lag:hover{
     color: rgba(236, 28, 36, 1);
     background-color: white;
+    text-decoration: none;
 }
 
 #body{
@@ -309,8 +322,8 @@ html{
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    top: 235px;
-    left: 554px;
+    top: 220px;
+    left: 450px;
     background: rgba(0, 28, 53, 0.1);
 
 
@@ -593,6 +606,11 @@ html{
     position: relative;
 }
 
+#main-media-asc .sub-title-m #myTabContent{
+    padding-bottom: 54px;
+}
+
+
 #main-media-asc .sub-title-m #myTab #home-tab,
 #main-media-asc .sub-title-m #myTab #profile-tab,
 #main-media-asc .sub-title-m #myTab #contact-tab{
@@ -614,21 +632,18 @@ html{
     margin-bottom: 40px;
 }
 
-#carousel-media{
-    width: 1520px;
-}
 
-#carousel-media .item{
-    display: flex;
-    flex-direction: column;
-    width: 475px;
-    flex-wrap: wrap;
-}
 
-#carousel-media .item img{
+
+#carousel-media .item .item-img{
     width: 100%;
 
 }
+
+#carousel-media .item .item-img img{
+    width: 100%
+}
+
 
 #carousel-media .item h4{
     position: relative;
@@ -656,14 +671,11 @@ html{
 }
 
 
-#carousel-media .carousel-theme{
-    float: right;
-}
 
 #main-media-asc .sub-title-m .btn-see-more a{
 
     display: block;
-    /* float: right; */
+    float: right;
     color: black;
     text-decoration: none;
     border: 1px solid white;
@@ -673,11 +685,7 @@ html{
 }
 
 
-#main-media-asc .sub-title-m .btn-see-more{
-    position: absolute;
-    bottom: 0;
-    right: 100px;
-}
+
 
 
 #myTabContent .owl-theme .owl-nav{
@@ -687,10 +695,13 @@ html{
 
 #myTabContent .owl-theme .owl-dots{
     position: absolute;
-    bottom: 6px;
-    right: 180px;
+    bottom: -39px;
+    right: 170px;
 }
 
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #EC1C24;;
+}
 
 
 
@@ -705,8 +716,8 @@ html{
     padding-top: 24px;
 }
 #footer .main-title-footer p{
-    margin: 0 70px;
-    padding: 20px 150px 40px 20px;
+    /* margin: 0 70px; */
+    padding: 40px 0;
 }
 
 #footer .main-title-footer .intro-asc{
