@@ -899,7 +899,7 @@ html{
 .modal-container{
     background-color: white;
     width: 100%;
-    height: auto;
+    height: 100%;
     position: relative;
     animation: modalFadeIn ease .35s;
 
@@ -969,6 +969,7 @@ html{
     font-size: 20px;
     line-height: 24px;
     text-decoration: none;
+    left: -30px;
 }
 
 
@@ -1053,6 +1054,7 @@ html{
     font-size: 20px;
     line-height: 24px;
     text-decoration: none;
+    left: -50px;
 }
 
 
