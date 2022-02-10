@@ -15,159 +15,94 @@ html{
     padding: 0;
 
 }
-
-#header-nav{
-    width: auto;
-    top: 0;
-    left: 0;
-}
-
-#hear-navbar{
-    width: auto;
-    max-width: 100%;
-    margin: 0 30px;
-    padding-top: 20px;
-    margin-bottom: 20px;
-}
-
-#navbar{
-    position: relative;
-    height: 80px;
+.header-main{
 
 }
 
-#logo-asc img{
-    
+.header-main .logo-asc img{
+    width: 126px;
 }
 
-#main-nav{
-    position: absolute;
-    top: 25px;
-    bottom: 0px;
-    right: 0px;
+.header-main .ul-header li{
+    align-self: center;
 }
 
-#menu #main-nav li{
-    margin-left: 10px;
-    list-style: none;
-    display:  inline-block;
-    padding: 20px 0;
-    
-}
-
-#menu .btn-menu{
-    /* color: rgba(50, 54, 72, 1); */
-    border: none;
-    background: white;
-    font-weight: 560;
-    outline: none;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-
-
-/* #menu .btn-menu:active{
-    border:1 solid rgba(236, 28, 36, 1);
-    border-radius: 100px;
-    color: white;
-    background-color: rgba(236, 28, 36, 1);
-    padding: 14px 14px;
-} */
-
-
-#main-nav #menu-item-007 .border-sp .edit-sp{
-    
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-
-#menu #main-nav #menu-item-007 .border-sp .label{
-    font-size: 20px;
-    font-weight: 700;
-}
-
-
-
-#main-nav .main-menu{
-
-}
-
-#menu #main-nav .item-sp{
-    color: rgba(50, 54, 72, 1);
-
+.header-main .ul-header .nav-item .nav-link{
+    color: black;
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
+    line-height: 23.9px;
+    align-self: center;
+    /* padding: 0 20px; */
+
 }
 
-
-#menu #main-nav .main-menu .item-sp{
-    letter-spacing: 0;
-}
-
-#menu #main-nav .main-menu .item-sp:hover,
-#menu #main-nav .main-menu .item-sp:active{
+.header-main .ul-header .nav-item .nav-link:hover{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(50, 54, 72, 1);
     letter-spacing: 1px;
     display: block;
     border-bottom: 5px solid rgba(236, 28, 36, 1);
+
+}
+
+
+.header-main .border-btn-call{
+    background: rgba(236, 28, 36, 1);
+    border: 1px solid (236, 28, 36, 1);
+    border-radius: 50px;
     
+    padding: 6px 10px 6px 10px;
+    margin: 0 8px;
+}
+
+.header-main .ul-header .border-btn-call .btn-call{
+    color: white;
     font-weight: bold;
 }
 
 
 
 
-.border-sp{
 
-    border-radius: 100px;
-    color: white;
+.header-main .border-lang-vn{
     background: rgba(236, 28, 36, 1);
-    font-weight: 600;
-    text-decoration: none;
+    border: 1px solid rgba(236, 28, 36, 1);
+    border-radius: 50px;
+    padding: 6px 4px;
+}
+
+.header-main .ul-header .border-lang-vn .lang-vn{
+    font-weight: 500;
     font-size: 20px;
-    padding: 12px 17px;
-} 
-
-
-.border-sp:hover{
-    color: rgba(236, 28, 36, 1);
-    background-color: white;
-    text-decoration: none;
-}
-
-#menu-icon-close{
-   display: none; 
-}
-
-#menu #main-nav .main-menu::after, .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.edit-lag{
-    border-radius: 100%;
+    line-height: 24px;
     color: white;
-    background: rgba(236, 28, 36, 1);
-    font-weight: 600;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 20px;
+    padding: 0;
 }
 
 
-.list-menu-items{
-    font-size: 24px;
-    font-weight: 900;
-}
 
-.edit-lag:hover{
-    color: rgba(236, 28, 36, 1);
+
+.header-main button{
     background-color: white;
+    border: none;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    outline-style: none;
+    padding: 0 18px;
+}
+
+
+.header-main .ul-header .border-btn-call .btn-call:hover,
+.header-main .ul-header .border-lang-vn .lang-vn:hover{
+    color: #FFFFFF;
 }
 
 #body{
