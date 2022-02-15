@@ -538,3 +538,43 @@ body{
     }
   } 
   
+
+
+
+/* --------------------new-page----------------- */
+
+
+.interview .title-interview h3{
+    padding-bottom: 50px;
+
+}
+
+
+.description-interview{
+    
+    border: 1px solid rgba(91, 94, 109, 1)
+}
+
+
+.interview .ul-interview{
+    padding: 10px;
+
+}
+
+
+.interview .btn-interview{
+    border-radius: 100px;
+    border: 1px solid; 
+    background: rgba(236, 28, 36, 1);
+
+}
+
+
+.interview .btn-interview a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+

@@ -1,0 +1,23 @@
+<p>ex-word works!</p>
+
+<input type="text" placeholder="English" [(ngModel)]="newEng">
+<br>
+<input type="text" placeholder="Vietnamese" [(ngModel)]="newVn">
+<br>
+<button (click) = "addNewWord()">Thêm từ mới</button>
+<br>
+<select [(ngModel)]="fillter">
+  <option value="xem-tat-ca">Xem tất cả</option>
+  <option value="xem-tu-da-thuoc">Xem từ đã thuộc</option>
+  <option value="xem-tu-chua-thuoc">Xem từ chưa thuộc</option>
+</select>
+
+<div *ngFor="let word of arrWords">
+  <div class = "style-content" *ngIf="showStatus(word.memorized)">
+    <h4 [ngStyle]="{color: word.memorized ? 'blue': 'red'}">{{word.id}} : {{word.en}}</h4>
+    <p>{{ word.vn}}</p>
+    <button (click)="removeWord(word.id)"> xóa từ vựng</button>
+    <button (click) = "word.memorized = !word.memorized">{{ word.memorized ? 'Chưa thuộc' : 'Đã thuộc'}}</button>
+  </div>
+
+</div>

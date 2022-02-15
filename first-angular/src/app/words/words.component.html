@@ -1,0 +1,33 @@
+<p>words works!</p>
+<div *ngIf="showFroms">
+  <input type="text" placeholder="english" [(ngModel)]="newEng">
+  <br>
+  <br>
+  <input type="text" placeholder="vietnameses" [(ngModel)]="newVn">
+  <br>
+  <br>
+
+  <button (click)="addWord()">add new word</button>
+  <br>
+  <br>
+</div>
+
+<button (click)="showFroms = true" *ngIf="!showFroms"> show froms</button>
+<br>
+<select [(ngModel)]="fillterWord">
+  <option value="seeAll">see all word</option>
+  <option value="remmenberWord">remmenbering Word</option>
+  <option value="unremmenberingWord">Unremmenbering Word</option>
+
+</select>
+
+<div *ngFor="let word of arrWords">
+
+  <div class="styleWord" *ngIf="showStatusWord(word.memorized)">
+    <h4 [ngStyle]="{color: word.memorized ? 'blue' : 'red'}"> {{ word.id }} : {{ word.en}}</h4>
+    <p>{{ word.vn}}</p>
+    <button (click)="removeWord(word.id);">delete</button>
+    <button (click)="word.memorized = !word.memorized">
+      {{word.memorized ? 'learn ' : 'Un-learn'}}</button>
+  </div>
+</div>
