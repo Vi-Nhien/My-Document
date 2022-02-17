@@ -1,0 +1,61 @@
+.first-page .title .main-title h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  color: rgba(50, 54, 72, 1);
+  text-align: center;
+}
+
+.first-page .title .sub-title {
+  text-align: center;
+  color: #5b5e6d;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.first-page .title-list-custom {
+}
+
+.first-page .title-list-custom p {
+  width: 291px;
+  height: 43px;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.first-page .title-list-custom p::after {
+  content: "";
+  position:absolute;
+  border: 4px solid rgba(236, 28, 36, 1);
+  bottom: -6px;
+  width: 142px;
+
+}
+
+
+
+.list-custom .item{
+  background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin: 0 5px;
+    width: 237px;
+    height: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.list-custom .item img{
+  width: auto;
+  padding: auto;
+  
+}

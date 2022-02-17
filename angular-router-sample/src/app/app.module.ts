@@ -1,31 +1,30 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
-import { CrisisListComponent } from './crisis-list/crisis-list.component';
-import { HeroesListComponent } from './heroes-list/heroes-list.component';
-import { RouterModule, Routes } from '@angular/router';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { HeroesListComponent } from './heroes-list/heroes-list.component';
+import { CrisisListComponent } from './crisis-list/crisis-list.component';
+import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HeroesModule } from './heroes/heroes.module';
 
-const routes :Routes = ([
-  {path: 'crisis-list', component: CrisisListComponent},
-  {path: 'heroes-list', component: HeroesListComponent},
-  { path: '', redirectTo:'/heroes', pathMatch: 'full'},
-  { path: '**', component: PageNotFoundComponent }
-]);
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    CrisisListComponent,
     HeroesListComponent,
+    CrisisListComponent,
     PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes),
-    AppRoutingModule
+    FormsModule,
+    AppRoutingModule,
+    HeroesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

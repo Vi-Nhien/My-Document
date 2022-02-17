@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(//db.onlinewebfonts.com/c/641c9e475af26c0f996b4b3b11a1c2b2?family=TT+Commons+W01);
+
+@font-face {
+  font-family: TTCommons;
+  src: url(./assets/font/TT Commons Regular.otf) format("truetype");
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'TTCommons';
+}

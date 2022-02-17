@@ -1,0 +1,36 @@
+.first-page {
+  background: rgba(0, 90, 169, 1);
+}
+
+.first-page .padding-page {
+  padding-top: 200px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+
+.first-page .padding-page nav {
+  padding: 16px;
+}
+.first-page .padding-page nav a {
+  padding: 0 10px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.first-page .padding-page .title h2 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.first-page .padding-page .sub-title p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 20px 0;
+}
