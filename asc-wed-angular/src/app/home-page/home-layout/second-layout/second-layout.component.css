@@ -1,0 +1,114 @@
+
+/* ------------2th-page------------------------ */
+
+.second-layout {
+  position: relative;
+  background: rgba(0, 90, 169, 1);
+  padding-top: 68px;
+  padding-bottom: 264px;
+  /* margin-bottom: 100px; */
+}
+
+.second-layout .products-solutions {
+  position: absolute;
+  bottom: 18px;
+  font-weight: bold;
+  font-size: 150px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.1;
+}
+
+.second-layout .title-m {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.second-layout .title-m h2 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.second-layout .mobie {
+}
+
+.second-layout .mobie .img-mobie-0 {
+  position: relative;
+  padding-right: 100px;
+}
+
+.big-cricle {
+  position: absolute;
+  border: 1px solid rgba(0, 28, 53, 1);
+  background: rgba(0, 28, 53, 1);
+  border-radius: 50%;
+  opacity: 10%;
+  width: 483px;
+  height: 483px;
+  /* z-index: auto; */
+  left: -170px;
+  top: -100px;
+}
+
+.second-layout .list-mobie{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .second-layout .list-mobie {
+    flex-direction: column;
+  }
+
+  .second-layout .list-mobie .mobie{
+    margin: 40px 0;
+  }
+
+}
+
+.second-layout .mobie .img-mobie-1 {
+  position: absolute;
+  top: 52px;
+  left: 56px;
+}
+
+.second-layout .mobie .descrip-mobie {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.second-layout .mobie .descrip-mobie .sub-title-m {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.second-layout .mobie .descrip-mobie .main-title-m {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+.second-layout .mobie .descrip-mobie .detail-m {
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.second-layout .mobie .descrip-mobie .btn-arrow-m i {
+  color: rgba(0, 90, 169, 1);
+  border: 1px solid white;
+  border-radius: 100px;
+  background-color: #ffffff;
+  padding: 8px;
+}

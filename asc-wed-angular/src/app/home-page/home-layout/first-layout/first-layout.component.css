@@ -1,0 +1,116 @@
+.first-page {
+  padding: 74px 0;
+  width: 100%;
+  position: relative;
+}
+
+.first-page::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -124px;
+  left: 0;
+  background-image: url(src/assets/image/background-img/hiiiii1.png);
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+
+.first-page .title .main-title h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 100%;
+  color: rgba(50, 54, 72, 1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.first-page .title .sub-title {
+  text-align: center;
+  color: #5b5e6d;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.first-page .title-list-custom {
+}
+
+.first-page .title-list-custom p {
+  width: 291px;
+  height: 43px;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.first-page .title-list-custom p::after {
+  content: "";
+  position: absolute;
+  border: 4px solid rgba(236, 28, 36, 1);
+  background-color: rgba(236, 28, 36, 1);
+  bottom: -5px;
+  width: 142px;
+}
+
+.list-custom {
+  padding: 40px 16px;
+}
+
+.first-list-custom,
+.second-list-custom {
+  padding: 10px 0;
+}
+
+.first-list-custom .item,
+.second-list-custom .item {
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin: 0 5px;
+  width: 237px;
+  height: 148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-list-custom .item img {
+  width: auto;
+  padding: auto;
+}
+
+.btn-xem-them {
+  text-align: center;
+}
+
+.btn-xem-them .xem-them {
+  border: 1px solid rgba(236, 28, 36, 1);
+  background: rgba(236, 28, 36, 1);
+  color: white;
+  text-decoration: none;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  padding: 12px 0;
+  padding-left: 45px;
+  padding-right: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.btn-xem-them .xem-them i {
+  border-radius: 100px;
+  background-color: white;
+  color: rgba(236, 28, 36, 1);
+  padding: 4px;
+  margin-left: 8px;
+}

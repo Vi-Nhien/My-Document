@@ -1,0 +1,117 @@
+/* ------------------fouth-layout------------ */
+.fouth-layout {
+  background: rgba(0, 90, 169, 0.1);
+  padding: 64px 0;
+}
+
+.fouth-layout .main-title-tu-van,
+.fouth-layout .sub-title-tu-van {
+  display: flex;
+  justify-content: center;
+}
+
+.fouth-layout .main-title-tu-van h2 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #323648;
+  padding: 4px 0;
+}
+
+.fouth-layout .sub-title-tu-van p {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #5b5e6d;
+  padding: 4px 0;
+}
+
+.fouth-layout .sdt {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .fouth-layout .sdt {
+    flex-direction: column;
+  }
+}
+
+.fouth-layout .sdt .border-style {
+  border-right: 1px solid rgba(50, 54, 72, 1);
+  padding-right: 148px;
+
+}
+
+.fouth-layout .sdt .sdt-tu-van{
+  margin: 40px 0;
+}
+
+.fouth-layout .sdt .sdt-tu-van .p-number {
+  padding: 30px 0;
+  align-items: center;
+
+}
+
+.fouth-layout .sdt .sdt-tu-van .p-number .name-p p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #323648;
+}
+
+.fouth-layout .sdt .sdt-tu-van .p-number .number-p h3 {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ec1c24;
+}
+
+.btn-tu-van {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-tu-van .HT-tu-van,
+.btn-tu-van .HT-nghiep-vu {
+  color: white;
+  border-radius: 100px;
+  background: rgba(236, 28, 36, 1);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 12px;
+}
+
+.btn-tu-van .HT-tu-van i,
+.btn-tu-van .HT-nghiep-vu i{
+  color: rgba(236, 28, 36, 1);
+  border-radius: 100px;
+  background: white;
+  padding: 8px;
+
+}
+
+.btn-tu-van .HT-tu-van i{
+  margin-left: 20px;
+}
+.btn-tu-van .HT-nghiep-vu i{
+  margin-left:14px;
+}
+
+
+.btn-tu-van .HT-tu-van{
+  padding: 4px 0;
+  padding-left: 52px;
+  padding-right: 7px;
+
+}
+.btn-tu-van .HT-nghiep-vu{
+  padding: 4px 0;
+  padding-left: 30px;
+  padding-right: 7px;
+}

@@ -1,0 +1,184 @@
+
+.footer {
+  background: rgba(0, 90, 169, 1);
+}
+
+.footer .title-footer {
+  padding: 40px 0;
+}
+
+.footer .logo-footer {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding-left: 48px;
+}
+
+.footer .logo-footer .main-logo {
+  margin-top: 40px;
+  position: relative;
+}
+.footer .logo-footer .main-logo .education-logo,
+.footer .logo-footer .main-logo .solution-logo {
+  display: flex;
+  position: absolute;
+}
+.footer .logo-footer .main-logo .education-logo {
+  left: 30px;
+  top: 32px;
+}
+
+.footer .logo-footer .main-logo .solution-logo {
+  left: 82px;
+  top: 32px;
+}
+
+.footer .logo-footer .main-logo .education-logo img,
+.footer .logo-footer .main-logo .solution-logo img {
+  padding: 0.5px;
+}
+
+.footer .logo-footer .sub-title-footer p {
+  /* align-items: baseline; */
+  margin: 0;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-left: 80px;
+}
+
+.detail {
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+
+.detail .flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.detail .goi-tu-van,
+.detail .hotline {
+  padding-right: 80px;
+}
+
+.detail .goi-tu-van p,
+.detail .hotline p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+
+.detail .goi-tu-van h1,
+.detail .hotline h1 {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.detail .ve-chung-toi {
+  border-left: 4px solid rgba(255, 255, 255, 0.5);
+  padding-left: 19px;
+  height: 100%;
+  margin: 0 60px;
+}
+
+.detail .ve-chung-toi p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.detail .ul-ve-chung-toi {
+  list-style: none;
+  margin: 0;
+}
+
+.detail .ul-ve-chung-toi li a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.detail .office {
+  border-left: 4px solid rgba(255, 255, 255, 0.5);
+  height: 100%;
+  padding-left: 20px;
+  margin: 0 80px;
+}
+
+.detail .office .office-hcm {
+  margin-bottom: 40px;
+}
+
+.detail .office .office-hcm .title-office,
+.detail .office .office-hn .title-office {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.detail .office .office-hcm .address-office,
+.detail .office .office-hn .address-office,
+.detail .office .office-hcm .phone-office,
+.detail .office .office-hn .phone-office {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.detail .office .office-hcm .address-office,
+.detail .office .office-hn .address-office {
+  margin-bottom: 8px;
+}
+
+.detail .san-pham {
+  border-left: 4px solid rgba(255, 255, 255, 0.5);
+  height: 100%;
+  padding-left: 20px;
+}
+.detail .san-pham p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.detail .san-pham .ul-san-pham {
+  list-style: none;
+}
+
+.detail .san-pham .ul-san-pham li a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.copy-right {
+  background: rgba(0, 61, 114, 1);
+  padding: 0 44px;
+}
+
+.copy-right p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 20px 0;
+  margin: 0;
+}
