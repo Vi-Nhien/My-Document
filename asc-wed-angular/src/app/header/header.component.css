@@ -19,7 +19,12 @@
 }
 
 .nav-bar {
+  position: relative;
 }
+
+
+
+
 
 .nav-bar .logo-asc .main-logo {
   margin-top: 40px;
