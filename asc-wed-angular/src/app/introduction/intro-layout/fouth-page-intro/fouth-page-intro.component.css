@@ -1,0 +1,23 @@
+.fouth-page {
+}
+
+.title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  color: #323648;
+}
+
+.descrip {
+  font-size: 22px;
+  line-height: 26px;
+  color: #323648;
+}
+
+.row{
+  padding: 16px 0;
+}
+
+.row-container-f{
+  margin-left: 100px;
+}

@@ -14,6 +14,11 @@ import { FirstLayoutComponent } from './home-page/home-layout/first-layout/first
 import { SecondLayoutComponent } from './home-page/home-layout/second-layout/second-layout.component';
 import { ThirdLayoutComponent } from './home-page/home-layout/third-layout/third-layout.component';
 import { FouthLayoutComponent } from './home-page/home-layout/fouth-layout/fouth-layout.component';
+import { FirstPageIntroComponent } from './introduction/intro-layout/first-page-intro/first-page-intro.component';
+import { SecondPageIntroComponent } from './introduction/intro-layout/second-page-intro/second-page-intro.component';
+import { ThirdPageIntroComponent } from './introduction/intro-layout/third-page-intro/third-page-intro.component';
+import { FouthPageIntroComponent } from './introduction/intro-layout/fouth-page-intro/fouth-page-intro.component';
+import { FifthLayoutComponent } from './home-page/home-layout/fifth-layout/fifth-layout.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +32,12 @@ import { FouthLayoutComponent } from './home-page/home-layout/fouth-layout/fouth
     FirstLayoutComponent,
     SecondLayoutComponent,
     ThirdLayoutComponent,
-    FouthLayoutComponent
+    FouthLayoutComponent,
+    FirstPageIntroComponent,
+    SecondPageIntroComponent,
+    ThirdPageIntroComponent,
+    FouthPageIntroComponent,
+    FifthLayoutComponent
   ],
   imports: [
     BrowserModule,

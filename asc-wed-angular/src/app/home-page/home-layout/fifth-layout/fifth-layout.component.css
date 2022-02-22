@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav .nav a {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #5b5e6d;
+  border: none;
+}
+
+nav .nav .active {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #323648;
+  border: none;
+  border-bottom: 4px solid rgba(236, 28, 36, 1);
+}
+
+/* .flex-container{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+} */
+
+.card{
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+}
