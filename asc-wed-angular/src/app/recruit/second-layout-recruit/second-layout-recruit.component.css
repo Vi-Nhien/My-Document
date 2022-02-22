@@ -1,0 +1,166 @@
+
+
+.second-page {
+  padding: 20px 40px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 40px 0;
+}
+
+.content .title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  color: #323648;
+  padding: 0;
+  /* margin: 0 60px; */
+}
+
+.content .descrip {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #323648;
+  padding: 0;
+  /* margin: 0 40px; */
+}
+
+
+.library-img{
+  display: block;
+  padding: 20px 0;
+}
+.library-img .content-img{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+.interview .row {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 20px 0;
+}
+
+@media screen and(max-width: 800px) {
+  .interview .row {
+    flex-direction: column;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .library-img{
+    display: none;
+  }
+}
+
+.interview .main-title-interview {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  color: #323648;
+  padding: 68px;
+}
+
+.detail-interview {
+  background: #ffffff;
+  border: 1px solid #5b5e6d;
+  box-sizing: border-box;
+  padding-top: 16px;
+  padding-left: 34px;
+  padding-bottom: 34px;
+  /* margin: 0 10px; */
+}
+
+.detail-interview .title-interview {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 50px;
+  color: #323648;
+}
+
+.detail-interview .list-interview li {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323648;
+  padding: 4px 0;
+}
+
+.detail-interview .btn-xem-chi-tiet a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #ec1c24;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  padding: 16px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 20px 0;
+}
+
+.detail-interview .btn-xem-chi-tiet a .fa-long-arrow-right {
+  color: #ec1c24;
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 10px;
+  margin-left: 8px;
+}
+
+.process .title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  color: #323648;
+  padding: 68px;
+}
+
+.process .list-process {
+  display: flex;
+  justify-content: center;
+}
+
+.process .list-process .col-2{
+  margin: 22px;
+}
+
+.process .list-process .col-2 .stt {
+  display: inline-block;
+  padding: 2px 22.98px;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 50px;
+  color: #323648;
+  border-radius: 50%;
+  background: rgba(50, 54, 72, 0.1);
+  margin: 4px 0;
+}
+
+.process .list-process .col-2 .quy-trinh-chinh {
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 50px;
+  color: #323648;
+}
+
+.process .list-process .col-2 .quy-trinh {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 50px;
+  color: #ec1c24;
+}
+
+.process .list-process .col-2 .noi-dung {
+  font-size: 16px;
+  line-height: 22px;
+  color: #323648;
+}

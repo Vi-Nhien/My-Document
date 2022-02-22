@@ -1,6 +1,16 @@
+.main-title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #323648;
+  padding: 40px;
+}
+
 nav {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 nav .nav a {
@@ -21,16 +31,46 @@ nav .nav .active {
   border-bottom: 4px solid rgba(236, 28, 36, 1);
 }
 
-/* .flex-container{
+.flex-container {
   display: flex;
   align-self: center;
   justify-content: center;
-} */
+  padding: 34px;
+}
 
-.card{
+.card {
   margin: 20px;
+  padding: 0;
+  border: none;
+}
+
+.card .title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #323648;
+}
+
+.card .description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #5b5e6d;
 }
 
 .card img {
   width: 100%;
+}
+
+.card .title {
+  position: relative;
+  padding: 10px 0;
+}
+.card .title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 4px solid #ec1c24;
+  width: 113px;
 }

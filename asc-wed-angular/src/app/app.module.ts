@@ -19,6 +19,9 @@ import { SecondPageIntroComponent } from './introduction/intro-layout/second-pag
 import { ThirdPageIntroComponent } from './introduction/intro-layout/third-page-intro/third-page-intro.component';
 import { FouthPageIntroComponent } from './introduction/intro-layout/fouth-page-intro/fouth-page-intro.component';
 import { FifthLayoutComponent } from './home-page/home-layout/fifth-layout/fifth-layout.component';
+import { RecruitComponent } from './recruit/recruit.component';
+import { FirstLayoutRecruitComponent } from './recruit/first-layout-recruit/first-layout-recruit.component';
+import { SecondLayoutRecruitComponent } from './recruit/second-layout-recruit/second-layout-recruit.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import { FifthLayoutComponent } from './home-page/home-layout/fifth-layout/fifth
     SecondPageIntroComponent,
     ThirdPageIntroComponent,
     FouthPageIntroComponent,
-    FifthLayoutComponent
+    FifthLayoutComponent,
+    RecruitComponent,
+    FirstLayoutRecruitComponent,
+    SecondLayoutRecruitComponent
   ],
   imports: [
     BrowserModule,
