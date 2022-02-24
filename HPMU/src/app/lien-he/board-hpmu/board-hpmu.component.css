@@ -1,0 +1,21 @@
+.container {
+  margin: 16px auto;
+}
+.broad-list {
+  display: flex;
+  padding: 12px 0;
+  border-bottom: 1.6px solid rgba(235, 235, 235, 1);
+}
+
+.broad-list img{
+  margin: 0 10px;
+}
+
+.broad-list .link {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 19.2226px;
+  line-height: 22px;
+  color: #0081d5;
+  text-transform: uppercase;
+}

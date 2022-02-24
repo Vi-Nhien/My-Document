@@ -1,0 +1,95 @@
+.container {
+  margin: 0px auto;
+}
+
+.header-title {
+  border-top: 10px solid rgba(0, 129, 213, 1);
+  border-bottom: 6px solid rgba(248, 155, 22, 1);
+  margin-bottom: 8px;
+}
+
+.header-title .logo-HPMU {
+
+}
+
+.header-title .logo-left {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 800px) {
+  .header-title .logo-left {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.header-title .logo-left img {
+  width: 71px;
+  height: 71px;
+}
+
+.text-name {
+  margin-left: 13px;
+}
+
+.text-name .text-vn {
+  font-family: UTM-HelveInt;
+  font-size: 26px;
+  line-height: 38px;
+  text-align: center;
+  font-weight: 400;
+  color: #0081d5;
+}
+
+.text-name .text-en {
+  font-family: UTM-HelveInt;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  font-weight: 400;
+  color: #0081d5;
+  justify-content: center;
+}
+
+.header-title .slogan h4 {
+  font-family: ULM-Aristote;
+  text-align: center;
+  font-size: 22px;
+  line-height: 35px;
+  text-align: center;
+  color: #0081d5;
+}
+
+.header-navbar {
+  background: rgba(0, 129, 213, 1);
+}
+
+.header-navbar .nav{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+
+
+.header-navbar .nav-item .nav-link {
+  display: inline-block;
+  font-family: UTM-HelveInt;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px 0;
+}
+
+.header-navbar .nav-item {
+  align-self: center;
+  padding: 12px 0;
+}
+
+.header-navbar .nav-item .nav-link .fa-search {
+  font-size: 20px;
+}

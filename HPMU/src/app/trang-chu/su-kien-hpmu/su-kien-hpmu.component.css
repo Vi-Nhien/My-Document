@@ -1,0 +1,188 @@
+.container {
+  margin: 20px auto;
+}
+
+.su-kien-HPMU {
+  border-top: 6px solid rgba(250, 155, 25, 1);
+}
+
+.su-kien-HPMU .title {
+  background-color: rgba(0, 129, 213, 1);
+}
+
+.su-kien-HPMU .title h2 {
+  font-family: UTM-HelveInt;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+
+.su-kien-HPMU .list-event {
+  align-self: center;
+  float: center;
+}
+
+.su-kien-HPMU .list-event .row-event {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.su-kien-HPMU .list-event .contain-event {
+  display: flex;
+  width: 100%;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  /* margin: 12px 0; */
+}
+
+.su-kien-HPMU .list-event .contain-event .day-event {
+  background: #0081d5;
+  border-radius: 6px;
+  width: 103.16px;
+  height: 59.8px;
+  padding: 6.98px;
+  margin: 9.93px 0;
+  margin-right: 13.69px;
+}
+
+.su-kien-HPMU .list-event .contain-event .day-event .day {
+  font-family: UTM Helve;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.su-kien-HPMU .list-event .contain-event .day-event .month {
+  font-family: UTM Helve;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.su-kien-HPMU .list-event .contain-event .content-event {
+  align-self: center;
+}
+
+.su-kien-HPMU .list-event .contain-event .content-event p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0081d5;
+}
+
+.su-kien-HPMU .event-management .btn-xem-ct {
+  text-align: end;
+  padding: 20px;
+  margin-right: 12px;
+}
+
+.su-kien-HPMU .event-management .btn-xem-ct .item-xct {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #0081d5;
+}
+
+.su-kien-HPMU .event-management .btn-xem-ct .fa-sort-asc {
+  transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 800px) {
+  .su-kien-HPMU .list-event .contain-event .content-event p {
+    padding: 0;
+  }
+}
+
+.notification {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  padding: 34px;
+}
+
+.notification .loa {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.notification .loa h1 {
+  position: relative;
+  display: block;
+  align-items: center;
+  font-family: UTM-HelveInt;
+  font-size: 39.4158px;
+  line-height: 58px;
+  color: #0081d5;
+  margin: 0 12px;
+  border-bottom: 8px solid #0081d5;
+  padding-bottom: 24px;
+}
+
+.notification .loa h1::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  border-bottom: 4px solid #fa9b19;
+  width: 100%;
+}
+
+.list-notification .ul-list {
+  /* list-style: ; */
+}
+.list-notification .ul-list .list-items {
+  /* position: relative; */
+  padding: 8px 0;
+  list-style-image: url("/assets/image/body/Trang-chu/list-style/Ellipse 50.png");
+}
+/*
+.list-notification .ul-list .list-items::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  list-style-image: url('/assets/image/body/Trang-chu/list-style/Ellipse 49.png')
+
+} */
+
+.list-notification .ul-list .list-items .item {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0081d5;
+}
+
+.notification .btn-xem-ct {
+  align-self: flex-end;
+}
+
+.notification .btn-xem-ct .item-xct {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  justify-content: flex-end;
+  color: #0081d5;
+}
+
+.notification .btn-xem-ct .fa-sort-asc {
+  transform: rotate(90deg);
+}

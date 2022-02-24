@@ -1,0 +1,124 @@
+
+.container {
+  margin: 0 auto;
+}
+
+.list-link {
+}
+
+@media only screen and (max-width: 800px) {
+  .list-link{
+    margin: 34px 0px;
+  }
+}
+
+.list-link .row {
+  margin: 0 40px;
+}
+
+.list-link .ul-list-items {
+  list-style: url("/assets/image/footer-image/Vector 6.png");
+}
+
+.list-link .ul-list-items li .link-item {
+  font-family: UTM-HelveInt;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #0081d5;
+}
+
+.bank-logo {
+  padding: 24px 160px;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(180deg, #fee4bd 0%, #fac986 100%);
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+  justify-content: space-between;
+}
+
+
+
+
+.bank-logo .img-bank {
+
+}
+
+@media only screen and (max-width: 800px) {
+  .bank-logo{
+    flex-direction: column;
+  }
+  .bank-logo .img-bank{
+    padding: 20px 0;
+  }
+}
+
+.information {
+  background: rgba(0, 129, 213, 1);
+  padding: 24px 100px;
+  color: white;
+}
+
+.information .school-logo img {
+  width: 129px;
+  height: auto;
+}
+
+.information .detail-infor-HPMU{
+  margin-left: 28px;
+  align-self: center;
+}
+
+.information .detail-infor-HPMU .school-name {
+  font-family: UTM-HelveInt;
+  font-size: 30px;
+  line-height: 26px;
+  /* color: white; */
+  margin-bottom: 8px;
+}
+
+.information .detail-infor-HPMU .school-infor{
+    /* color: white; */
+}
+
+
+.information .conneting .connet-w-us{
+  font-family: UTM-HelveInt;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+
+.information .conneting .icon-brand {
+  margin-top:16px;
+  margin-bottom: 8px;
+}
+
+
+.information .conneting .icon-brand .icon-item{
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+.information .conneting .icon-brand .icon-item .fa{
+   display: inline-block;
+  color: white;
+  font-size: 18.47px;
+  border-radius: 50%;
+  border: 1px solid white;
+
+}
+
+.information .conneting .icon-brand .icon-item .fa-facebook {
+  padding: 7.95px 11.93px;
+}
+
+.information .conneting .icon-brand .icon-item .fa-youtube-play{
+  padding: 7.95px 7.95px;
+}
+
+
+.information .conneting .icon-brand .icon-item .fa-twitter{
+  padding: 7.95px 8.6px;
+}

@@ -1,0 +1,137 @@
+.container{
+  margin: 34px auto;
+}
+
+.tuyen-sinh-hpmu {
+  border-top: 6px solid #fa9b19;
+}
+
+.tuyen-sinh-hpmu .title {
+  background: #0081d5;
+  padding: 8px 16px;
+}
+
+.tuyen-sinh-hpmu .title h2 {
+  margin: 0px;
+  font-family: UTM-HelveInt;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.tuyen-sinh-hpmu .list-tuyen-sinh .row-list {
+  padding: 26px 0;
+}
+
+.tuyen-sinh-hpmu .list-tuyen-sinh .row-list .dai-hoc,
+.tuyen-sinh-hpmu .list-tuyen-sinh .row-list .sau-dai-hoc,
+.tuyen-sinh-hpmu .list-tuyen-sinh .row-list .theo-nhu-cau {
+  width: 100%;
+  height: 200px;
+  padding: 0;
+  background-size: cover;
+  position: relative;
+  /* margin: 4px; */
+}
+
+.tuyen-sinh-hpmu .list-tuyen-sinh .row-list .dai-hoc {
+  background-image: url("/assets/image/body/Trang-chu/Tuyen-sinh/dhy-duoc-hai-phongng 1.png");
+}
+.tuyen-sinh-hpmu .list-tuyen-sinh .row-list .sau-dai-hoc {
+  background-image: url("/assets/image/body/Trang-chu/Tuyen-sinh/dhy-duoc-hai-phongng1(1).png");
+}
+.tuyen-sinh-hpmu .list-tuyen-sinh .row-list .theo-nhu-cau {
+  background-image: url("/assets/image/body/Trang-chu/Tuyen-sinh/dhy-duoc-hai-phongng1(2).png");
+}
+
+.tuyen-sinh-hpmu .list-tuyen-sinh .row-list .content-item {
+  font-family: UTM-HelveInt;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  line-height: 33px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #0081d5;
+  width: 100%;
+  padding: 6.25px 0;
+}
+
+.tb-tuyen-sinh {
+  background: rgba(0, 129, 213, 1);
+  padding: 30.57px 39.81px;
+  position: relative;
+}
+
+.tb-tuyen-sinh::before{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: -1px;
+  width: 36%;
+  height: 100.25%;
+  background-image: url('/assets/image/body/Trang-chu/Tuyen-sinh/Rectangle 336.png');
+  background-size:cover;
+
+}
+
+
+
+.tb-tuyen-sinh::after{
+  content: '';
+  position: absolute;
+  right: 155px;
+  top: 58px;
+  width: 21%;
+  height: 84%;
+  background-image: url('/assets/image/body/Trang-chu/Tuyen-sinh/asian-healthcare-female-posing copy 1.png');
+  background-size:cover;
+}
+
+
+
+
+.tb-tuyen-sinh .list-items {
+  list-style: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .tb-tuyen-sinh::before,
+  .tb-tuyen-sinh::after{
+    display: none;
+  }
+}
+
+.tb-tuyen-sinh .list-items .list-item .link-thong-tin {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 13px 0 7px 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.tb-tuyen-sinh .xem-tat-ca a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0;
+  margin-left: 20px;
+}
+
+.tb-tuyen-sinh .xem-tat-ca .fa-sort-asc{
+  transform: rotate(90deg);
+}

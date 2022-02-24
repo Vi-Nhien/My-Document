@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face{
+  font-family: UTM-Helve;
+  src: url(./assets/font/UTM Helve.ttf);
+}
+
+@font-face {
+  font-family: ULM-Aristote;
+  src: url(./assets/font/UTM Aristote.ttf);
+}
+
+
+@font-face {
+  font-family: UTM-HelveInt;
+  src: url(./assets/font/UTM HelveBold.ttf);
+}
+
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: UTM-Helve;
+}

@@ -1,0 +1,52 @@
+.container{
+  margin: 21px auto;
+}
+
+
+.lien-ket-hpmu {
+  border-top: 6px solid #fa9b19;
+  background: rgba(249, 249, 249, 1);
+  padding-bottom: 16px;
+}
+
+.lien-ket-hpmu .title {
+  background-color: rgba(0, 129, 213, 1);
+}
+
+.lien-ket-hpmu .title h2 {
+  font-family: UTM-HelveInt;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+
+.lien-ket-hpmu .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.lien-ket-hpmu .row .item-conecting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+.lien-ket-hpmu .row .item-conecting img{
+  width: 79px;
+  height: 79px;
+  align-self: center;
+
+}
+
+.lien-ket-hpmu .row .item-conecting .link-conecting {
+  display: inline-block ;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-family: UTM-HelveInt;
+  color: #0081d5;
+}

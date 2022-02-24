@@ -1,0 +1,67 @@
+.container {
+  margin: 20px auto;
+}
+
+.school-name,
+.title-lien-he {
+  font-family: UTM-HelveInt;
+
+  line-height: 44px;
+  color: #0081d5;
+  font-weight: 400;
+}
+
+.school-name {
+  text-align: center;
+  margin: 0;
+  font-size: 26px;
+}
+.title-lien-he {
+  font-size: 22px;
+}
+
+.detail-lien-he,
+.school-infor {
+  font-size: 16px;
+  font-weight: 400;
+  color: #272d4e;
+}
+
+.school-infor {
+  line-height: 26px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.detail-lien-he {
+  line-height: 22px;
+}
+.styte-text {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 7px 0;
+  padding: 12.26px 15.91px 11.61px 12.89px;
+}
+
+.styte-text::placeholder {
+  font-family: "Roboto", sans-serif;
+
+  color: #55687e;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.btn-gui {
+  width: 207px;
+  height: 53.1px;
+  background: #0081d5;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+
+}

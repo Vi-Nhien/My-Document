@@ -1,0 +1,51 @@
+.container{
+  margin: 21px auto;
+}
+.quan-ly-hpmu {
+  border-top: 6px solid #fa9b19;
+  background: rgba(249, 249, 249, 1);
+}
+
+.quan-ly-hpmu .title {
+  background-color: rgba(0, 129, 213, 1);
+}
+
+.quan-ly-hpmu .title h2 {
+  font-family: UTM-HelveInt;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+
+.quan-ly-hpmu .quan-ly {
+  display: flex;
+  justify-content: space-around;
+  padding: 44px 22px;
+}
+
+.quan-ly-hpmu .quan-ly .item-manage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+}
+
+.quan-ly-hpmu .quan-ly .item-manage img {
+  border-radius: 50%;
+  background: rgba(0, 129, 213, 1);
+  align-self: center;
+  margin-bottom: 16.83px;
+}
+
+.quan-ly-hpmu .quan-ly .item-manage .link-manage{
+  font-family: UTM-HelveInt;
+  font-size: 16px;
+line-height: 24px;
+text-align: center;
+
+/* BLUE_HPMU */
+
+color: #0081D5;
+}
