@@ -17,6 +17,9 @@ import { VideoAlbumHpmuComponent } from './trang-chu/video-album-hpmu/video-albu
 import { LienHeComponent } from './lien-he/lien-he.component';
 import { BoardHPMUComponent } from './lien-he/board-hpmu/board-hpmu.component';
 import { ThongTinHpmuComponent } from './lien-he/thong-tin-hpmu/thong-tin-hpmu.component';
+import { TrangTinTucComponent } from './trang-tin-tuc/trang-tin-tuc.component';
+import { SlideTinTucComponent } from './trang-tin-tuc/slide-tin-tuc/slide-tin-tuc.component';
+import { ListOptionsComponent } from './trang-tin-tuc/list-options/list-options.component';
 
 
 
@@ -36,7 +39,10 @@ import { ThongTinHpmuComponent } from './lien-he/thong-tin-hpmu/thong-tin-hpmu.c
     VideoAlbumHpmuComponent,
     LienHeComponent,
     BoardHPMUComponent,
-    ThongTinHpmuComponent
+    ThongTinHpmuComponent,
+    TrangTinTucComponent,
+    SlideTinTucComponent,
+    ListOptionsComponent
 
   ],
   imports: [

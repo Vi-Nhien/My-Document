@@ -1,0 +1,108 @@
+.title {
+  font-family: UTM-HelveInt;
+  font-size: 22px;
+  line-height: 33px;
+  color: #0081d5;
+  border-bottom: 2px solid #fa9b19;
+  position: relative;
+  padding: 12px;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  border-top: 4px solid rgba(0, 129, 213, 1);
+  width: 100%;
+  bottom: -6px;
+  left: 0;
+}
+
+.tin-chuyen-muc,
+.thong-bao,
+.su-kien {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+
+.tin-chuyen-muc .ul-list-items {
+  list-style: url("/assets/image/footer-image/Vector 6.png");
+
+  position: relative;
+  left: 20px;
+  padding: 12px;
+}
+
+.tin-chuyen-muc .ul-list-items li .link-item {
+  font-family: UTM-HelveInt;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #0081d5;
+}
+
+.thong-bao .ul-list-tb {
+  list-style-image: url("/assets/image/body/Trang-chu/list-style/Ellipse 50.png");
+  position: relative;
+  left: 20px;
+  padding: 12px;
+}
+
+.tin-chuyen-muc .ul-list-tb li .link-item-tb {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0081d5;
+}
+
+.thong-bao .ul-list-tb li .link-item-tb::after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: -9px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #fa9b19;
+}
+
+
+
+.su-kien .ul-list-su-kien{
+  padding: 8px 0;
+}
+
+
+
+.time {
+  background: #0081d5;
+  border-radius: 6px;
+  align-items: center;
+  padding: 4px;
+  align-self: center;
+}
+
+.su-kien .day {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  color: white;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.su-kien .month {
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  color: white;
+  align-items: center;
+}
+.su-kien .content-su-kien p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0081d5;
+}
