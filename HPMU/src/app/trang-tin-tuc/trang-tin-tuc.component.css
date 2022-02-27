@@ -2,3 +2,12 @@
   margin: 0 auto;
 }
 
+.flex-body{
+  display: flex;
+  column-gap: 24px;
+}
+
+
+.column-flex{
+  flex: auto;
+}

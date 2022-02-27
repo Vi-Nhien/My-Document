@@ -1,3 +1,27 @@
+
+.tin-tuc-nha-truong{
+    border-top: 6px solid #fa9b19;
+    padding-bottom: 16px;
+    margin-left: 16px;
+}
+.tin-tuc-nha-truong .main-title {
+  background-color: rgba(0, 129, 213, 1);
+}
+
+.tin-tuc-nha-truong .main-title h2 {
+  font-family: UTM-HelveInt;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+
+
+
+
+
+
 .space-news{
   border-bottom: 1px solid #F0F0F0;
   padding: 20px 0;
@@ -20,3 +44,40 @@
   color: #222222;
 }
 
+.flex-btn{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 54px;
+}
+
+.flex-btn .style-btn{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  border: none;
+  border-radius: 4px;
+  background: rgba(249, 249, 249, 1);
+  width: 40px;
+  height: 40px;
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 70px;
+}
+
+
+.flex-btn .active{
+  color: white;
+  background: rgba(0, 129, 213, 1);
+}
+
+
+.flex-btn .style-btn span{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 70px;
+}

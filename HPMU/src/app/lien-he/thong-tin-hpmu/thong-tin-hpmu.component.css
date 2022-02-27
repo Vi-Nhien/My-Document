@@ -55,6 +55,7 @@
 }
 
 .btn-gui {
+  border: none;
   width: 207px;
   height: 53.1px;
   background: #0081d5;

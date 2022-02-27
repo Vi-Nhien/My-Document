@@ -21,7 +21,10 @@
 }
 
 .tuyen-sinh-hpmu .list-tuyen-sinh .row-list {
-  padding: 26px 0;
+  display: flex;
+  column-gap: 20px;
+  margin: 26px 32px;
+
 }
 
 .tuyen-sinh-hpmu .list-tuyen-sinh .row-list .dai-hoc,
@@ -32,6 +35,7 @@
   padding: 0;
   background-size: cover;
   position: relative;
+  flex: auto;
   /* margin: 4px; */
 }
 

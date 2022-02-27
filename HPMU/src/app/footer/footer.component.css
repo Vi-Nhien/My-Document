@@ -12,9 +12,16 @@
   }
 }
 
-.list-link .row {
-  margin: 0 40px;
+.flexbox-container{
+  display: flex;
+  column-gap: 24px;
 }
+
+.detail-infor ,
+.conneting{
+  flex: auto;
+}
+
 
 .list-link .ul-list-items {
   list-style: url("/assets/image/footer-image/Vector 6.png");
@@ -65,16 +72,18 @@
 }
 
 .information .detail-infor-HPMU{
-  margin-left: 28px;
   align-self: center;
+  padding-left: 12px;
 }
 
 .information .detail-infor-HPMU .school-name {
   font-family: UTM-HelveInt;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 24px;
   line-height: 26px;
-  /* color: white; */
   margin-bottom: 8px;
+  word-wrap: none;
+
 }
 
 .information .detail-infor-HPMU .school-infor{
