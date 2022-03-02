@@ -6,16 +6,9 @@
 .list-link {
 }
 
-@media only screen and (max-width: 800px) {
-  .list-link{
-    margin: 34px 0px;
-  }
-}
 
-.flexbox-container{
-  display: flex;
-  column-gap: 24px;
-}
+
+
 
 .detail-infor ,
 .conneting{
@@ -36,40 +29,63 @@
 }
 
 .bank-logo {
-  padding: 24px 160px;
-  display: flex;
-  flex-direction: row;
+  padding: 24px 0px;
   background: linear-gradient(180deg, #fee4bd 0%, #fac986 100%);
   /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+  .list-link .ul-list-items li {
+    list-style: url("/assets/image/footer-image/Vector 6.png") inside;
+  }
+  .list-link .ul-list-items{
+    text-align: center;
+  }
+
+
+}
+
+.bank-logo .bank-items{
+  display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
-
-
-
-
-.bank-logo .img-bank {
-
-}
-
-@media only screen and (max-width: 800px) {
-  .bank-logo{
+@media (max-width: 800px){
+  .bank-logo .bank-items{
     flex-direction: column;
   }
-  .bank-logo .img-bank{
-    padding: 20px 0;
+  .bank-logo .img-bank {
+    align-self: center;
+    margin: 12px 0;
   }
 }
+
+
 
 .information {
   background: rgba(0, 129, 213, 1);
-  padding: 24px 100px;
+  padding: 24px 0px;
   color: white;
 }
+
+.information .flexbox-container{
+  display: flex;
+  column-gap: 24px;
+  flex-direction: row;
+}
+
+
 
 .information .school-logo img {
   width: 129px;
   height: auto;
 }
+
+
 
 .information .detail-infor-HPMU{
   align-self: center;
@@ -130,4 +146,37 @@
 
 .information .conneting .icon-brand .icon-item .fa-twitter{
   padding: 7.95px 8.6px;
+}
+
+.information .conneting .copyright p{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+@media (max-width: 800px){
+  .information .flexbox-container{
+    flex-direction: column;
+  }
+  .information .school-logo img{
+    width: 80px;
+    height: auto;
+  }
+  .information .detail-infor-HPMU .school-name{
+    font-size: 0.9rem;
+  }
+  .information .detail-infor-HPMU .school-infor{
+    font-size: 0.6rem;
+  }
+  .information .conneting .connet-w-us h3{
+    font-size: 1rem;
+  }
+  .information .conneting .icon-brand .icon-item .fa{
+    font-size: 0.9rem;
+  }
+  .information .conneting .copyright p{
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
 }

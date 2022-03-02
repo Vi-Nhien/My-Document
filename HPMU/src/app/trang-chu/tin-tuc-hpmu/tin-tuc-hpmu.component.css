@@ -22,6 +22,12 @@
   font-weight: 400;
 }
 
+@media (max-width: 800px) {
+  .tin-tuc-hpmu .title h2{
+    font-size: 0.9rem;
+  }
+}
+
 .content .row {
   margin: 24px 0;
   display: flex;

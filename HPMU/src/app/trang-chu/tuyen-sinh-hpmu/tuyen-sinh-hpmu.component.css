@@ -20,12 +20,21 @@
   font-weight: 400;
 }
 
+@media (max-width: 800px) {
+  .tuyen-sinh-hpmu .title h2{
+    font-size: 0.9rem;
+  }
+}
+
 .tuyen-sinh-hpmu .list-tuyen-sinh .row-list {
   display: flex;
   column-gap: 20px;
   margin: 26px 32px;
+  flex-direction: row;
 
 }
+
+
 
 .tuyen-sinh-hpmu .list-tuyen-sinh .row-list .dai-hoc,
 .tuyen-sinh-hpmu .list-tuyen-sinh .row-list .sau-dai-hoc,
@@ -41,12 +50,18 @@
 
 .tuyen-sinh-hpmu .list-tuyen-sinh .row-list .dai-hoc {
   background-image: url("/assets/image/body/Trang-chu/Tuyen-sinh/dhy-duoc-hai-phongng 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .tuyen-sinh-hpmu .list-tuyen-sinh .row-list .sau-dai-hoc {
   background-image: url("/assets/image/body/Trang-chu/Tuyen-sinh/dhy-duoc-hai-phongng1(1).png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .tuyen-sinh-hpmu .list-tuyen-sinh .row-list .theo-nhu-cau {
   background-image: url("/assets/image/body/Trang-chu/Tuyen-sinh/dhy-duoc-hai-phongng1(2).png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .tuyen-sinh-hpmu .list-tuyen-sinh .row-list .content-item {
@@ -63,6 +78,17 @@
   background: #0081d5;
   width: 100%;
   padding: 6.25px 0;
+}
+
+
+@media (max-width: 800px) {
+  .tuyen-sinh-hpmu .list-tuyen-sinh .row-list {
+    flex-direction: column;
+  }
+  .tuyen-sinh-hpmu .list-tuyen-sinh .row-list .content-item{
+     margin: 12px 0;
+     font-size: 1rem;
+  }
 }
 
 .tb-tuyen-sinh {

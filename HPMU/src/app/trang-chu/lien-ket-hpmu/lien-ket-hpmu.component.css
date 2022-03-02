@@ -39,10 +39,18 @@
 }
 
 
-@media screen and(max-width: 1000px) {
+
+
+@media (max-width: 800px) {
   .lien-ket-hpmu .row-items {
     flex-direction: column;
-
+    padding: 14px 0;
+  }
+  .lien-ket-hpmu .row-items .item-conecting{
+    padding: 12px 0;
+  }
+  .lien-ket-hpmu .title h2{
+    font-size: 0.9rem;
   }
 }
 

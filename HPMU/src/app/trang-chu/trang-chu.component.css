@@ -7,3 +7,10 @@
 }
 
 
+@media (max-width: 800px){
+  .background-img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+  }
+}

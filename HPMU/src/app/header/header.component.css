@@ -9,25 +9,24 @@
 }
 
 .header-title .logo-HPMU {
-
+  display: flex;
+  flex-direction: row;
+  margin-top: 23px;
+  justify-content: space-between;
 }
 
 .header-title .logo-left {
   display: flex;
-  flex-direction: row;
 }
 
-@media screen and (max-width: 800px) {
-  .header-title .logo-left {
-    flex-direction: column;
-    justify-content: center;
-  }
-}
+
 
 .header-title .logo-left img {
   width: 71px;
   height: 71px;
 }
+
+
 
 .text-name {
   margin-left: 13px;
@@ -61,16 +60,47 @@
   color: #0081d5;
 }
 
+@media (max-width: 800px) {
+  .header-title .logo-HPMU {
+    flex-direction: column;
+  }
+  .header-title .logo-left img{
+    align-self: center;
+  }
+  .header-title .logo-left img{
+    width: 20%;
+    height: 20%;
+  }
+  .text-name .text-vn{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .text-name .text-en{
+    font-size:100%;
+    margin: 10px 0;
+  }
+  .logo-right .sreenShot img{
+    display: none;
+  }
+  .header-title .slogan h4{
+    font-size: 14px;
+  }
+}
+
+nav{
+  padding: 0;
+}
+
 .header-navbar {
   background: rgba(0, 129, 213, 1);
 }
 
 .header-navbar .nav{
-  display: flex;
+  width: 100%;
   flex-wrap: nowrap;
   justify-content: space-between;
+  flex-direction: row;
 }
-
 
 
 .header-navbar .nav-item .nav-link {
@@ -92,4 +122,13 @@
 
 .header-navbar .nav-item .nav-link .fa-search {
   font-size: 20px;
+}
+
+
+
+
+@media (max-width: 800px) {
+  .header-navbar .nav{
+    flex-direction: column;
+  }
 }

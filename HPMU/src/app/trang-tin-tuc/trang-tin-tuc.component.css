@@ -4,10 +4,21 @@
 
 .flex-body{
   display: flex;
+  flex-direction: row;
   column-gap: 24px;
 }
 
 
 .column-flex{
   flex: auto;
+}
+
+
+@media (max-width: 800px) {
+  .flex-body{
+    flex-direction: column;
+  }
+  .column-flex{
+    flex: 100%;
+  }
 }

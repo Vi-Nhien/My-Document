@@ -8,6 +8,12 @@
   padding: 12px;
 }
 
+@media (max-width: 800px) {
+  .title{
+    font-size: 1rem;
+  }
+}
+
 .title::after {
   content: "";
   position: absolute;

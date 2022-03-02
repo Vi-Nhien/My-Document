@@ -17,6 +17,12 @@
   padding: 8px 16px;
 }
 
+@media (max-width: 800px) {
+  .tin-tuc-nha-truong .main-title h2{
+    font-size: 0.9rem;
+  }
+}
+
 
 
 

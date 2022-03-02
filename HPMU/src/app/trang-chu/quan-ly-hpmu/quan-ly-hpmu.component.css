@@ -19,6 +19,12 @@
   padding: 8px 16px;
 }
 
+@media (max-width: 800px) {
+  .quan-ly-hpmu .title h2{
+    font-size: 0.9rem;
+  }
+}
+
 .quan-ly-hpmu .quan-ly {
   display: flex;
   justify-content: space-around;
