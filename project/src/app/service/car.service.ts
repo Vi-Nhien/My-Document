@@ -5,7 +5,7 @@ import { environment } from 'src/environments/environment';
 
 
 export interface Icar {
-  ID?: string;
+  id?: string;
   Horsepower: number;
   Year ?: Date;
   Origin: string;
@@ -26,8 +26,8 @@ export class CarService {
     return this.http.get<Icar[]>(this.apiUrl);
   }
 
-  getByID(ID:string): Observable<Icar>{
-    return this.http.get<Icar>(`${this.apiUrl}/${ID}`)
+  getByID(id:string): Observable<Icar>{
+    return this.http.get<Icar>(`${this.apiUrl}/${id}`)
   }
 
   createCar( car:Icar):Observable<Icar>{
@@ -35,10 +35,10 @@ export class CarService {
   }
 
   updateCar(car :Icar){
-    return this.http.put(`${this.apiUrl}/${car.ID}`,car);
+    return this.http.put(`${this.apiUrl}/${car.id}`,car);
   }
 
-  deleteCar(ID: string){
-    return this.http.delete(`${this.apiUrl}/${ID}`);
+  deleteCar(id?: string){
+    return this.http.delete(`${this.apiUrl}/${id}`);
   }
 }

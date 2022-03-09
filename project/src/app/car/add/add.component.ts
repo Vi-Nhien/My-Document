@@ -28,7 +28,7 @@ export class AddComponent implements OnInit {
       this.carService.createCar(this.form?.value).subscribe(
         response =>{
           console.log(response);
-          this.router.navigate(['/user']);
+          this.router.navigate(['/car']);
         }
       )
   }

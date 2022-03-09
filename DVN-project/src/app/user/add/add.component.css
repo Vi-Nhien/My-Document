@@ -1,0 +1,17 @@
+.container{
+  margin: 20px auto;
+}
+
+h3{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-submit{
+  border-radius: 5px;
+  background-color: #385898;
+  border: none;
+  color: white;
+  padding: 10px;
+
+}

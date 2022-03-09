@@ -40,7 +40,21 @@ export class CarComponent implements OnInit {
 
   editCar(car :Icar){
     if(car){
-      this.router.navigate(['/car/edit',car.ID]);
+      this.router.navigate(['/car/edit',car.id]);
     }
+  }
+
+  deleteCar(car : Icar){
+      if(car){
+        this.carService.deleteCar(car.id).subscribe(
+          res =>{
+            console.log('delete sucesss');
+            const index = this.cars?.findIndex(m=> m.id === car.id) || -1;
+            if(index >= 0){
+              this.cars?.splice(index,1);
+            }
+          }
+        )
+      }
   }
 }

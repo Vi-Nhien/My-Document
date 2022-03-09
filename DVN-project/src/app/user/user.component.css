@@ -1,0 +1,94 @@
+h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.container-user {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.btn-option{
+  background-color: #385898;
+  color: white;
+  border-radius: 6px;
+  padding: 8px;
+  border: none;
+}
+
+
+.btn-add{
+  position: fixed;
+  top: 100px;
+  left: 0;
+  border-radius: 6px;
+  background-color: #385898;
+  border: none;
+  color: white;
+  padding: 10px;
+
+}
+
+
+.btn-edit
+{
+  background-color: white;
+  border: none;
+  color: #385898;
+  padding: 8px;
+  font-size: 16px;
+  margin: 0px 8px;
+  padding: 12px 0;
+
+}
+
+a{
+  margin: 10px 0;
+  /* border: none; */
+  border-radius: 16px ;
+
+}
+a:hover {
+  /* background-color:#3399ff;
+  color: white; */
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.edit-pagination {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.edit-pagination::ng-deep .ngx-pagination {
+  padding-left: 0px !important;
+}
+
+
+.edit-pagination::ng-deep .ngx-pagination .current,
+
+.edit-pagination::ng-deep .btn-info {
+  background: #385898 !important;
+  border: transparent !important;
+  border-radius: 20px !important;
+  font-size: 12px;
+
+}
+
+.modal-content{
+  width: 50%;
+}
+
+.modal-header h3{
+  margin: 0;
+  padding: 12px 0;
+}
+
+.modal-footer{
+  display: flex;
+
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+
+}

@@ -1,0 +1,27 @@
+
+  .navbar {
+    background-color: #385898;
+  }
+
+
+  .fa {
+    color: white;
+  }
+
+  .nav-item {
+
+  }
+
+  .nav-link{
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .active {
+    border-bottom: 2px solid white;
+  }
+
+  .btn{
+      background-color: white;
+      color: #385898;
+  }

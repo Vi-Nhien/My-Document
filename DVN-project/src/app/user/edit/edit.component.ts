@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { switchMap } from 'rxjs';
-import { CarService } from 'src/app/service/car.service';
-import { __param } from 'tslib';
+import { UserService } from 'src/app/service/user.service';
 
 @Component({
   selector: 'app-edit',
@@ -14,40 +13,43 @@ export class EditComponent implements OnInit {
 
   form?: FormGroup;
   constructor(
+    private userService: UserService,
     private fb: FormBuilder,
-    private carService: CarService,
     private router: Router,
     private route: ActivatedRoute
-  ) { }
+  ) {
+
+  }
 
   ngOnInit(): void {
-    this.form = this.fb.group({
-      id: [''],
-      Horsepower: ['', Validators.required],
-      Origin: ['', Validators.required]
-    });
 
+    this.form = this.fb.group({
+      id:[''],
+      firstName: ['', Validators.required],
+      lastName: ['', Validators.required],
+      phone: ['', Validators.required],
+      address: ['', Validators.required],
+      email: ['', Validators.required]
+    });
     this.route.params.pipe(
       switchMap((param) => {
         const id = param['id'];
-        return this.carService.getByID(id);
+        return this.userService.getUserById(id);
       })
     ).subscribe(
-      (res) =>{
+      (res) => {
         console.log(res);
         this.form?.patchValue(res);
         console.log(this.form);
       }
     )
-
   }
-
   onSubmit() {
     console.log(this.form);
-    this.carService.updateCar(this.form?.value).subscribe(
+    this.userService.updateUser(this.form?.value).subscribe(
       response => {
         console.log(response);
-        this.router.navigate(['/car']);
+        this.router.navigate(['/user']);
       }
     )
   }

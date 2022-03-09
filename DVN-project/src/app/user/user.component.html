@@ -1,0 +1,75 @@
+<div class="container-user">
+  <h3>LIST USER</h3>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col-2">Option</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Address</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users | paginate
+        : {
+            itemsPerPage: tableSize,
+            currentPage: page,
+            totalItems: count
+          }
+          ; let i = index">
+        <th scope="row" class="">{{ user.id}}</th>
+        <td>
+          <button type="button" class="btn-option" data-toggle="modal" data-target="#exampleModalCenter">
+             <i class="fa fa-wrench"></i>
+          </button>
+        </td>
+        <td>{{ user.firstName }}</td>
+        <td>{{ user.lastName }}</td>
+        <td>{{ user.phone }}</td>
+        <td>{{ user.address }}</td>
+        <td>{{ user.email }}</td>
+
+
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLongTitle">Thao tác</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn-edit " data-dismiss="modal"> <i class = "fa fa-times-circle-o"></i> Close</button>
+                <button class="btn-edit" (click)="editUser(user)" data-dismiss="modal"> <i class = "fa fa-edit"></i> Edit user</button>
+                <button class="btn-edit" (click)="deleteUser(user)" data-dismiss="modal"> <i class = "fa fa-trash-o"></i> Delete user</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </tr>
+
+    </tbody>
+    <div class="edit-pagination">
+      <pagination-controls previousLabel="Prev" nextLabel="Next" (pageChange)="onTableDataChange($event)">
+      </pagination-controls>
+    </div>
+
+  </table>
+
+
+
+
+  <button class="btn-add" type="button" (click)="addUser()"> Add new</button>
+
+
+</div>
+
+
+<!--  -->
