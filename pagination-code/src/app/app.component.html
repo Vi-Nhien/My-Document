@@ -1,0 +1,38 @@
+<body>
+  <div class="container">
+
+
+    <select name="" id="">
+      <option value="5">5</option>
+      <option value="10">10</option>
+      <option value="20">20</option>
+    </select>
+    <table>
+      <tr>
+        <th>id</th>
+        <th>NAME</th>
+        <th>CREATE-AT</th>
+        <th>EMAIL</th>
+      </tr>
+      <tr *ngFor="let infor of infors">
+        <td>{{infor.id}}</td>
+        <td>{{infor.name}}</td>
+        <td>{{infor.createdAt | date}}</td>
+        <td>{{infor.email}}</td>
+      </tr>
+
+
+    </table>
+
+
+    <div class='pagination-container'>
+      <nav>
+        <ul class="pagination">
+         <!--	Here the JS Function Will Add the Rows -->
+        </ul>
+      </nav>
+    </div>
+  </div>
+</body>
+
+<script src="/src/app/javascript/app.js"></script>

@@ -92,3 +92,20 @@ a:hover {
   align-items: flex-start;
 
 }
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+
+table tr:nth-child(even) {
+  background-color: rgba(56, 88, 152, 0.4);
+}
+
+
+table tr:nth-child(odd) {
+  background-color: white;
+}
