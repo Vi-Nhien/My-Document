@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -7,7 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  // myElementScript ?: HTMLScriptElement;
+  // constructor() {
+  //   this.myElementScript = document.createElement("script");
+  //   this.myElementScript.src = "src/assets/javascript/header.js";
+  //   document.body.appendChild(this.myElementScript);
+  // }
 
   ngOnInit(): void {
   }

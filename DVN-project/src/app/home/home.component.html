@@ -1,1 +1,27 @@
-<p>home works!</p>
+<body>
+  <div class="home-container">
+    <div class="clock-container">
+      <div class="clock-time">
+        <div class="hours-c">
+          <h2 id="hours">{{date |date:"HH"}}</h2>
+          <span>Hours</span><br>
+          <span class = "days">{{date| date: "d"}}</span>
+        </div>
+        <div class="mins-c">
+          <h2 id="mins">{{date |date:"mm"}}</h2>
+          <span>Minuters</span> <br>
+          <span class = "days">{{date| date: "LLL"}}</span>
+        </div>
+        <div class="second-c">
+          <h2 id="seconds">{{date |date:"ss"}}</h2>
+          <span>Seconds</span><br>
+          <span class = "days">{{date| date: "yyyy"}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+

@@ -8,6 +8,9 @@ import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
   {
+    path:'' ,redirectTo:'/home', pathMatch: 'full'
+  },
+  {
     path: 'home', component: HomeComponent
   },
   {
@@ -21,10 +24,8 @@ const routes: Routes = [
   },
   {
     path: '**', component: PageNotFoundComponent
-  },
-  {
-    path:'' ,redirectTo:'/home', pathMatch: 'full'
   }
+
 
 ];
 

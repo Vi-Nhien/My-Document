@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DVN-project';
+  // myElementScript ?: HTMLScriptElement;
+  constructor() {
+    // this.myElementScript = document.createElement("script");
+    // this.myElementScript.src = "src/assets/javascript/header.js";
+    // document.body.appendChild(this.myElementScript);
+  }
 }

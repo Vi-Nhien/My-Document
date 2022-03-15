@@ -1,0 +1,59 @@
+body{
+  height: 100vh;
+}
+
+
+.home-container
+{
+  background-image: url("src/assets/image/home-image/tree.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  /* background-position: center center; */
+
+
+}
+
+.clock-container {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.clock-time
+{
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  padding: 20px 0;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+span{
+  display: flex;
+  justify-content: center;
+  margin: 12px 0;
+  font-size: 16px;
+  color: white;
+}
+
+.days{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.hours-c,
+.mins-c,
+.second-c{
+  flex: auto;
+}
